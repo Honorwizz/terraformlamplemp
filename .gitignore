@@ -1,0 +1,13 @@
+# Игнорируем файлы состояния Terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# Игнорируем секретные ключи
+authorized_key.json
+
+# Игнорируем файлы блокировки зависимостей (если не используете shared .terraform.lock.hcl)
+.terraform.lock.hcl
+
+# Игнорируем логи и временные файлы
+*.log
